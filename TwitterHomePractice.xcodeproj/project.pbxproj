@@ -13,6 +13,8 @@
 		FDA125B926017BF700CF66DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA125B726017BF700CF66DE /* Main.storyboard */; };
 		FDA125BB26017BFA00CF66DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA125BA26017BFA00CF66DE /* Assets.xcassets */; };
 		FDA125BE26017BFA00CF66DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA125BC26017BFA00CF66DE /* LaunchScreen.storyboard */; };
+		FDA125C8260180F000CF66DE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA125C6260180F000CF66DE /* TableViewCell.swift */; };
+		FDA125C9260180F000CF66DE /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA125C7260180F000CF66DE /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FDA125BA26017BFA00CF66DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDA125BD26017BFA00CF66DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDA125BF26017BFA00CF66DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA125C6260180F000CF66DE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FDA125C7260180F000CF66DE /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				FDA125B126017BF700CF66DE /* AppDelegate.swift */,
 				FDA125B326017BF700CF66DE /* SceneDelegate.swift */,
 				FDA125B526017BF700CF66DE /* ViewController.swift */,
+				FDA125C6260180F000CF66DE /* TableViewCell.swift */,
+				FDA125C7260180F000CF66DE /* TableViewCell.xib */,
 				FDA125B726017BF700CF66DE /* Main.storyboard */,
 				FDA125BA26017BFA00CF66DE /* Assets.xcassets */,
 				FDA125BC26017BFA00CF66DE /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDA125BE26017BFA00CF66DE /* LaunchScreen.storyboard in Resources */,
+				FDA125C9260180F000CF66DE /* TableViewCell.xib in Resources */,
 				FDA125BB26017BFA00CF66DE /* Assets.xcassets in Resources */,
 				FDA125B926017BF700CF66DE /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDA125B626017BF700CF66DE /* ViewController.swift in Sources */,
+				FDA125C8260180F000CF66DE /* TableViewCell.swift in Sources */,
 				FDA125B226017BF700CF66DE /* AppDelegate.swift in Sources */,
 				FDA125B426017BF700CF66DE /* SceneDelegate.swift in Sources */,
 			);
